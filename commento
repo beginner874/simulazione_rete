@@ -1,0 +1,2 @@
+"openssl req -x509 -newkey rsa:2048 -keyout server.pem -out server.pem -sha256 -days 365 -nodes"
+il commando che usa openssl per generare il permesso al client di collegare al server.
